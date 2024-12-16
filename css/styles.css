@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #1a1a1a;
+    --secondary-color: #2d2d2d;
+    --accent-color: #00A3FF;
+    --text-color: #e0e0e0;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-dark {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+    padding: 30px;
+}
+
+.btn-custom {
+    background-color: var(--accent-color);
+    border: none;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #ff6a33;
+    transform: scale(1.05);
+}
+
+header {
+    background: linear-gradient(45deg, #1a1a1a, #2d2d2d);
+    padding: 2rem 0;
+}
+
+h1, h2, h3 {
+    color: var(--accent-color);
+}
+
+.card {
+    background-color: var(--secondary-color);
+    border: 1px solid #444;
+}
+
+footer {
+    background: linear-gradient(45deg, #1a1a1a, #2d2d2d);
+}
