@@ -1,0 +1,86 @@
+.pricing-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    background: #fff;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.card-header {
+    border-radius: 15px 15px 0 0 !important;
+    padding: 2rem 1rem;
+    text-align: center;
+    background: linear-gradient(45deg, #2c3e50, #3498db) !important;
+    color: white;
+}
+
+.price-tag {
+    margin: 1.5rem 0;
+}
+
+.price-tag .currency {
+    font-size: 1.5rem;
+    vertical-align: top;
+}
+
+.price-tag .amount {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.price-tag .period {
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.feature-item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.feature-item i {
+    margin-right: 10px;
+    color: #2ecc71;
+}
+
+.feature-item.disabled {
+    color: #95a5a6;
+}
+
+.feature-item.disabled i {
+    color: #e74c3c;
+}
+
+.delivery-time {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #2c3e50, #3498db);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #3498db, #2c3e50);
+    transform: translateY(-2px);
+}
