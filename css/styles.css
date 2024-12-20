@@ -48,3 +48,24 @@ h1, h2, h3 {
 footer {
     background: linear-gradient(45deg, #1a1a1a, #2d2d2d);
 }
+
+#contact {
+    background-color: #f8f9fa; /* Cambiado a un gris claro */
+    color: #212529; /* Texto en un color oscuro */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para resaltar */
+}
+
+#contact h2 {
+    color: #00A3FF; /* Manteniendo el color de acento */
+}
+
+#contact a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

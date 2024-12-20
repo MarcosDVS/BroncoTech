@@ -8,134 +8,160 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="text-white text-center py-2">
-        <img src="img/dark-logo.png" alt="Logo El Bronco TECH" class="img-fluid" style="max-width: 150px;">
-        <div class="row d-flex justify-content-between align-items-center">
-            <h1 class="mt-3 text-center col">Tecnología Indomable, Rendimiento Imparable</h1>
-        </div>        
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/dark-logo.png" alt="Logo El Bronco TECH" width="50" class="me-2">
+                El Bronco TECH
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Tecnología Indomable, Rendimiento Imparable</h1>
+            <p class="lead">Descubre los mejores equipos tecnológicos al mejor precio.</p>
+            <a href="https://mercagi.com/c/El-Bronco-Tech" target="_blank" class="btn btn-primary btn-lg mt-3">Explorar Catálogo</a>
+        </div>
     </header>
 
-    <!-- Introducción -->
-    <section class="container my-5 section-dark">
-        <div class="row">
-            <div class="col-md-8 mx-auto text-center">
-                <h2>Bienvenido a El Bronco TECH</h2>
-                <p class="lead">Descubre los mejores equipos tecnológicos al mejor precio y solicita la cotización de tu sitio web personalizado. Rendimiento, calidad y soporte excepcional para todas tus necesidades tecnológicas.</p>
-                <div class="d-grid gap-2 d-md-block">
-                    <a href="https://mercagi.com/c/El-Bronco-Tech" target="_blank" class="btn btn-custom btn-lg m-2">Explora Nuestro Catálogo Online</a>
-                    <a href="cotizar.html" class="btn btn-custom btn-lg m-2">Cotizar Sitio Web</a>
-                </div>
-                <div class="d-flex justify-content-center col-auto">
-                    <a href="https://www.instagram.com/elbroncotech?igsh=eXBvZWxvOHQzbGsw" target="_blank" class="me-3">
-                        <img src="img/instagram.png" alt="" width="40" height="40">
-                    </a>
-                    <a href="https://wa.me/+18298707794" target="_blank" class="me-3">
-                        <img src="img/whatsapp.png" alt="" width="40" height="40">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Misión, Visión, Valores y Objetivos -->
-    <section class="section-dark py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Nuestra Esencia</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <h3>Misión</h3>
-                    <p>Brindar soluciones tecnológicas de calidad a precios accesibles, garantizando un servicio confiable y un rendimiento inigualable.</p>
-                </div>
-                <div class="col-md-6">
-                    <h3>Visión</h3>
-                    <p>Ser una empresa líder en la venta de equipos tecnológicos, reconocida por la confianza, innovación y satisfacción de nuestros clientes.</p>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <h3>Valores</h3>
-                    <ul>
-                        <li>Compromiso con la calidad</li>
-                        <li>Innovación constante</li>
-                        <li>Atención personalizada</li>
-                        <li>Integridad y responsabilidad</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h3>Objetivos</h3>
-                    <ul>
-                        <li>Ofrecer productos tecnológicos de alta calidad</li>
-                        <li>Ampliar nuestra presencia en el mercado online</li>
-                        <li>Garantizar la satisfacción total de nuestros clientes</li>
-                        <li>Fomentar relaciones duraderas con nuestros clientes</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Información de la Empresa -->
-    <section class="container py-5">
-        <div class="text-center">
-            <h2>Sobre Nosotros</h2>
-            <p>En <strong>El Bronco TECH</strong>, ofrecemos soluciones tecnológicas indomables. Desde computadoras de alto rendimiento hasta accesorios innovadores, pasando por el desarrollo de páginas web modernas y funcionales, nos aseguramos de cubrir todas tus necesidades con productos de calidad y un servicio de confianza.</p>
-            <a href="https://marcosdvs.github.io/Developer/" target="_blank" 
-                class="btn btn-secondary mt-3">
-                Conoce al Desarrollador
-            </a>
-        </div>
-    </section>
-
-    <!-- Síguenos en Instagram -->
-    <section class="container my-5 text-center">
-        <h2>¡Síguenos en Instagram!</h2>
-        <p>Para conocer nuestras últimas ofertas, productos y servicios, síguenos en nuestra cuenta oficial de Instagram.</p>
-        <a href="https://www.instagram.com/elbroncotech?igsh=eXBvZWxvOHQzbGsw" target="_blank" class="btn btn-primary btn-lg">
-            Visitar Instagram
-        </a>
-    </section>
-
-    <!-- Tarjeta de Contacto y Servicios -->
-    <section class="bg-light py-5">
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
         <div class="container text-center">
-            <h2>Nuestros Servicios y Contacto</h2>
-            <div class="row mt-4">
-                <div class="col-md-6 mb-4">
-                    <h3>Servicios</h3>
-                    <img src="img/tarjeta-front.png" alt="Tarjeta de Servicios" class="img-fluid">
+            <h2 class="mb-4 text-primary">Bienvenido a El Bronco TECH</h2>
+            <p class="lead text-dark">Ofrecemos soluciones tecnológicas indomables. Desde computadoras de alto rendimiento hasta accesorios innovadores y desarrollo web personalizado.</p>
+        </div>
+    </section>
+    
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-center mb-4 text-light">Nuestros Servicios</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 text-light">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Equipos Tecnológicos</h3>
+                            <p class="card-text">Descubre computadoras y accesorios de alta calidad al mejor precio.</p>
+                            <a href="https://mercagi.com/c/El-Bronco-Tech" target="_blank" class="btn btn-outline-light">Ver Catálogo</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h3>Contacto</h3>
-                    <img src="img/tarjeta-back.png" alt="Tarjeta de Contacto" class="img-fluid">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 text-light">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Desarrollo Web</h3>
+                            <p class="card-text">Diseñamos páginas web modernas y funcionales adaptadas a tus necesidades.</p>
+                            <a href="cotizar.html" class="btn btn-outline-light">Cotizar Proyecto</a>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="img/tarjeta-front.png" alt="" class="img-fluid border">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Testimonials Section -->
+    <section class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Lo que dicen nuestros clientes</h2>
+            <div id="carouselTestimonials" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="text-center">
+                            <p class="lead">"El Bronco TECH superó mis expectativas. Excelente servicio y productos de calidad."</p>
+                            <small>- Juan Pérez</small>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center">
+                            <p class="lead">"Mi sitio web quedó perfecto gracias a su equipo profesional."</p>
+                            <small>- María López</small>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
             </div>
         </div>
     </section>
 
-    <!-- Llamado a la Acción -->
-    <section class="container my-5 text-center">
-        <h2>¿Listo para impulsar tu presencia digital?</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-6 mb-4">
-                <h3>Equipos Tecnológicos</h3>
-                <p>Accede a nuestro catálogo y encuentra el equipo que necesitas.</p>
-                <a href="https://mercagi.com/c/El-Bronco-Tech" target="_blank" class="btn btn-success btn-lg">Ir al Catálogo Online</a>
-            </div>
-            <div class="col-md-6">
-                <h3>Desarrollo Web</h3>
-                <p>Obtén una cotización para tu sitio web personalizado.</p>
-                <a href="cotizar.html" class="btn btn-primary btn-lg">Cotizar Sitio Web</a>
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contáctanos</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="row">
+                        <h3>Información de Contacto</h3>
+                        <p><strong>Dirección:</strong> Duarte #92, La Cueva</p>
+                        <p><strong>Teléfono:</strong> <a href="tel:+18298707794">+1 (829) 870-7794</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:elbroncotech@hotmail.com">elbroncotech@hotmail.com</a></p>
+                    </div>
+                    <div class="row">
+                        <img src="img/tarjeta-back.png" alt="" class="img-fluid border">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3>Envíanos un Mensaje</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
+    
 
     <!-- Footer -->
-    <footer class="text-white text-center py-3">
-        <p class="mb-0">&copy; 2024 El Bronco TECH. Todos los derechos reservados.</p>
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 El Bronco TECH. Todos los derechos reservados.</p>
+            <div class="mt-2">
+                <a href="https://www.instagram.com/elbroncotech" target="_blank" class="text-white me-3">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://wa.me/+18298707794" target="_blank" class="text-white">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </div>
+        </div>
     </footer>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5"></script>
 </body>
 </html>
